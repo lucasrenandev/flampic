@@ -73,7 +73,6 @@ main {
 .container-images {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .images {
