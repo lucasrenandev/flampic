@@ -29,7 +29,7 @@ main {
 
 #left-side {
     background: radial-gradient(99.46% 89.69% at 117.29% 112.19%, #F8C35B 0%, #FDE591 100%);
-    width: 600px;
+    max-width: 590px;
 }
 
 .logo {
@@ -50,9 +50,9 @@ main {
     line-height: 37.5px;
     text-transform: uppercase;
     color: #3A3934;
-    position: relative;
     z-index: 2;
-    
+    position: relative;
+
 }
 
 /* rectangle before */
@@ -73,13 +73,14 @@ main {
 .container-images {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .images {
     display: flex;
     align-items: flex-end;
     margin-top: 100px;
-    margin-left: 153px;
+    margin-left: 190px;
 }
 
 
